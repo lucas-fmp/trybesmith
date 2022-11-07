@@ -25,3 +25,9 @@ export interface IUserId extends IUserInput {
 export interface IToken {
   token: string,
 }
+
+export interface IOrders {
+  id: number,
+  userId: number,
+  productsIds: number[],
+}
